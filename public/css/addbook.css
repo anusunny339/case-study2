@@ -1,0 +1,145 @@
+
+table{
+    margin-top: 3%;
+    margin-left: 3%;
+ /*   width:9000px;*/
+}
+td{
+    padding: 2px;
+  
+}
+tr{
+  margin-top:2px;
+  padding-bottom: 1px;
+}
+
+t1{
+    
+    color: grey;
+    font-size: medium;
+    font-weight: bold;
+}
+t11{
+    color:white;
+    background-color: grey;
+    font-size: small;
+}
+t12{
+    color: grey;
+    font-size: x-small;
+    font-weight: bold;
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  tm{
+      margin-left: 1100%;
+  }
+  
+  table tr:last-child {
+    border: 0;
+  }
+  
+  
+   .box2{
+    margin-top: 23%;
+     width:53%;
+     height:3%;
+     padding:40px;
+     position:relative;
+     top:20%;
+     left:50%;
+     transform: translate(-50%,-50%);
+    /* background: #191919;*/
+    /*background: rgb(24, 24, 126);*/
+    background:#000022e5;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    /*background:white;*/
+     text-align: center;
+     
+     border-top: 30px solid rgba(248, 247, 247, 0.986);
+     border-radius: 24px;
+     
+   }
+   .box-head{
+      width:100%;
+     
+      background-color: blue;
+   }
+   .box2 label{
+       color:white;
+       font-size: large;
+       font-weight: bold;
+   }
+   .box2 input[type="text"],.box2 input[type="password"],.box2 input[type="date"],.box2 input[type="email"],.box2 input[type="file"]{
+     border:0;
+     background: none;
+     display: block;
+     margin:10px auto;
+     text-align: center;
+     border:2px solid black;
+     padding: 8px 7px;
+     width:240px;
+     outline: none;
+     color:white;
+     border-radius: 24px;
+     transition:0.25s ;
+     margin-bottom: 10px;
+
+   }
+   .box2 h1{
+      color: white;
+      padding-top: 2px;
+     font-weight: 500;
+   }
+  .box2 input[type="text"]:focus,.box2 input[type="password"]:focus,.box2 input[type="date"]:focus,.box2 input[type="email"]:focus{
+    width:260px;
+    border-color: white;
+
+  }
+  .box2 button[type="submit"],.box2 input[type="reset"]{
+    border:0;
+     background: none;
+     display: block;
+     margin:20px auto;
+     text-align: center;
+     border:2px solid whitesmoke;
+     padding: 14px 40px;
+     
+     outline: none;
+     color:black;
+     border-radius: 24px;
+     transition:0.25s ;
+     cursor: pointer;
+     font-weight: bolder;
+     font-size: large;
+     
+  }
+  .box2  button[type="button"]:hover,.box2 input[type="reset"]:hover{
+    background: white ;
+    width: 280px;
+  }
+  
+  #logimg{
+      position: relative;
+      padding: 0;
+      margin: 0;
+      width:500;
+     
+  }
+  .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+::-webkit-file-upload-button {
+  background: black;
+  color: white;
+  padding: 0.5em;
+}
